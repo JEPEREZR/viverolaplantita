@@ -1,0 +1,7 @@
+{
+  "name": "viverolaplantita",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
