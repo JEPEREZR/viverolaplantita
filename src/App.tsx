@@ -11,7 +11,7 @@ import {
 import { IonReactRouter } from '@ionic/react-router';
 import { ellipse, square, leaf } from 'ionicons/icons';
 import Plantas from 'pages/Plantas';
-import Tab2 from 'pages/Tab2';
+import Maceteros from 'pages/Maceteros';
 import Tab3 from 'pages/Tab3';
 
 /* Core CSS required for Ionic components to work properly */
@@ -41,8 +41,8 @@ const App: React.FC = () => (
           <Route exact path="/plantas">
             <Plantas />
           </Route>
-          <Route exact path="/tab2">
-            <Tab2 />
+          <Route exact path="/maceteros">
+            <Maceteros />
           </Route>
           <Route path="/tab3">
             <Tab3 />
@@ -56,9 +56,9 @@ const App: React.FC = () => (
             <IonIcon icon={leaf} />
             <IonLabel>Plantas</IonLabel>
           </IonTabButton>
-          <IonTabButton tab="tab2" href="/tab2">
+          <IonTabButton tab="maceteros" href="/maceteros">
             <IonIcon icon={ellipse} />
-            <IonLabel>Tab 2</IonLabel>
+            <IonLabel>Maceteros</IonLabel>
           </IonTabButton>
           <IonTabButton tab="tab3" href="/tab3">
             <IonIcon icon={square} />
